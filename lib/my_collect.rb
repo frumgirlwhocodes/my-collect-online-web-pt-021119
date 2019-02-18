@@ -7,5 +7,5 @@ i += 1
 end 
 new_collection
 end 
-my_collect(["Tim", "Tom", "Jim"])
+my_collect(["Tim", "Tom", "Jim"]){ |name| "Hi, #{name}" }
 
